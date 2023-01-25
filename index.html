@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;500&display=swap" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="180x180" href="src/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="src/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="src/favicon/favicon-16x16.png">
+    <link rel="manifest" href="src/favicon/site.webmanifest">
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="src/css/responsivo.css">
+    <title>Season 2 Trailer | Overwatch 2</title>
+</head>
+<body>
+    
+    <div class="background-vid">
+        <video class="vid" autoplay loop muted>
+            <source src="src/vid/season2-trailer-ow2.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <header class="cabecalho">
+        <a class="hre-ow" href="#">
+            <img class="logo-ow" src="src/img/logo-ow2.png" alt="Logo Overwatch">
+        </a>
+        <nav>
+            <ul class="menu">
+                <li><a href="https://overwatch.blizzard.com/en-us/" target="_blank">Site oficial</a></li>
+                <li><a href="#">Compre já</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <div class="informacoes">
+            <img class="tittle-overwatch" src="src/img/title-overwatch.png" alt="Titulo Overwatch">
+            <p class="descricao">
+                Descrito como um "hero shooter", Overwatch designa jogadores em dois times de seis, com cada jogador tendo liberdade em escolher mais de 30 personagens, conhecidos como "heróis", cada um com um estilo de jogo único, dividido em três papéis gerais adequados ao seu objetivo.
+            </p>
+            <button class="botao-trailer">Veja o Trailer</button>
+        </div>
+
+        <img src="src/img/reaper.png" class="reaper" alt="imagem reaper">
+
+        <div class="modal">
+            <div class="conteudo-modal">
+                <span class="fechar-modal">X</span>
+                <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/rEJVOxzjyQ0" title="Trailer oficial" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>           
+    </main>
+    <script src="src/js/script.js"></script>
+</body>
+</html>
